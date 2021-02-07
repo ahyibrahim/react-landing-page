@@ -19,7 +19,8 @@ const Section = ({headline, content, url}) => {
 const WIDTH = window.innerWidth;
 const HEIGHT = window.innerHeight;
 
-console.log(`WIDTH: ${WIDTH}\nHEIGHT: ${HEIGHT}`);
+console.log(`Width is ${WIDTH} from Section`);
+
 
 const container_style ={
     display: 'flex',

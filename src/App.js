@@ -1,13 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import "antd/dist/antd.css";
 import Section from './components/section';
-import iggy from './resources/images/iggy.jpg'
+import Header from './components/Header'
 
 function App() {
   return (
     <div className="App">
       <div>
+        <Header></Header>
         <Section headline="Testing Headline" content="Testing Content"></Section>
       </div>
     </div>
